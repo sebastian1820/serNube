@@ -24,10 +24,6 @@ const proveedorSchema = mongoose.Schema ({
         type:Number,
         required: true
     },
-    direccion:{
-        type:String,
-        required: true
-    },
     ciudad:{
         type:String,
         required: true

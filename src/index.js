@@ -16,6 +16,7 @@ app.use(cors());
 app.use(express.json())
 app.use('/api/clientes',require ('../routes/rutas'));
 app.use('/api/Proveedor',require ('../routes/rutasProveedor'));
+app.use('/api/productos',require ('../routes/rutasproducto'));
 
 app.listen (port,()=>{
 
